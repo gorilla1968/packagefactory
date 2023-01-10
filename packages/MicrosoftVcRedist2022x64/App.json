@@ -17,7 +17,7 @@
   "Program": {
     "InstallTemplate": "#SetupFile /install /quiet /norestart",
     "InstallCommand": "VC_redist.x64.exe /install /quiet /norestart",
-    "UninstallCommand": "\"C:\\ProgramData\\Package Cache\\{d4cecf3b-b68f-4995-8840-52ea0fab646e}\\VC_redist.x64.exe\" /uninstall /quiet /noreboot",
+    "UninstallCommand": "\"C:\\ProgramData\\Package Cache\\{d4cecf3b-b68f-4995-8840-52ea0fab646e}\\VC_redist.x64.exe\" /uninstall /quiet /norestart",
     "InstallExperience": "system",
     "DeviceRestartBehavior": "suppress"
   },
